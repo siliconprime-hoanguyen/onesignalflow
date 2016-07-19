@@ -19,7 +19,7 @@ Steps
       test_type: 1 //BEWARE, non-production environment is 1, production environment is 2
     }
   ```
-  
+  Doc: https://documentation.onesignal.com/docs/players-add-a-device
   
   
   3. Calling sending push notification when needed using API 2 with body
@@ -40,5 +40,7 @@ Steps
     }
   }
   ```
+  
+  Doc: https://documentation.onesignal.com/docs/notifications-create-notification
   
 
