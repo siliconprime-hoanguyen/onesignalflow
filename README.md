@@ -19,6 +19,13 @@ Steps
       test_type: 1 //BEWARE, non-production environment is 1, production environment is 2
     }
   ```
+  and Header
+  
+  ```javascript
+  {  
+    'Content-Type': 'application/json'
+  }
+  ```
   Doc: https://documentation.onesignal.com/docs/players-add-a-device
   
   
@@ -40,6 +47,15 @@ Steps
     headings: {
       en: 'test headings'
     }
+  }
+  ```
+  
+   and Header
+  
+  ```javascript
+  {  
+    'Content-Type': 'application/json',
+    Authorization: 'Basic key'  //key is retrieved from dashboard of the app
   }
   ```
   
