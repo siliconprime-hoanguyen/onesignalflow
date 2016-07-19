@@ -20,6 +20,8 @@ Steps
     }
   ```
   
+  
+  
   3. Calling sending push notification when needed using API 2 with body
   
   ```javascript
@@ -28,7 +30,7 @@ Steps
       en: 'message from dropin' //title
     },
     data: {data1: 'abc'},  //data to send
-    //include_player_ids: [id], //Use this only if sending to specfic user, in this case, we use tags
+    //include_player_ids: [id], //Use this only if sending to specfic users, in this case, we use tag 
     tags:[{
       {"key": "userId", "relation": "=","value": "ourdesireuserid"} //this is our registed tags in the API register above
     }]
