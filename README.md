@@ -55,7 +55,7 @@ Steps
   ```javascript
   {  
     'Content-Type': 'application/json',
-    Authorization: 'Basic key'  //key is retrieved from dashboard of the app
+    Authorization: 'Basic ' +key  //key is retrieved from dashboard of the app
   }
   ```
   
