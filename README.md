@@ -31,8 +31,10 @@ Steps
     },
     data: {data1: 'abc'},  //data to send
     //include_player_ids: [id], //Use this only if sending to specfic users, in this case, we use tag 
-    tags:[{
-      {"key": "userId", "relation": "=","value": "ourdesireuserid"} //this is our registed tags in the API register above
+    tags:[{ //this is our registed tags in the API register above
+      "key": "userId", 
+      "relation": "=",
+      "value": "ourdesireuserid" 
     }]
     app_id: appId,
     headings: {
